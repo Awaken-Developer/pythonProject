@@ -1,7 +1,7 @@
 import socket
 import pickle
 
-
+#defined class template for client side
 class NoteBooks:
     def __init__(self, pages, price, size):
         self.pages = pages
